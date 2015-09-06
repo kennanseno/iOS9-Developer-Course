@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B757E8782D11E610B4B01301F523897C4F9E1453",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B757E8782D11E610B4B01301F523897C4F9E1453" : 0,
+    "422DC195A25AEDAFA7120D743906FAA36F45A1B5" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "37DBC84A-1F2C-47A6-A32A-587CC9D48EFB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B757E8782D11E610B4B01301F523897C4F9E1453" : "iOS9-Developer-Course\/",
+    "422DC195A25AEDAFA7120D743906FAA36F45A1B5" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Animations",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Animations\/Animations.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:kennanseno\/sushi-app.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "422DC195A25AEDAFA7120D743906FAA36F45A1B5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/kennanseno\/iOS9-Developer-Course",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B757E8782D11E610B4B01301F523897C4F9E1453"
+    }
+  ]
+}
