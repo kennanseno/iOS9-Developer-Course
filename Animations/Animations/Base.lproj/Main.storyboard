@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8187.4" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8151.3"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Animations" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="frame0.png" translatesAutoresizingMaskIntoConstraints="NO" id="Uuh-Pj-CjN">
+                                <rect key="frame" x="135" y="193" width="330" height="214"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="214" id="ALm-I0-LwN"/>
+                                    <constraint firstAttribute="width" constant="330" id="RlF-g6-PRA"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qw6-b6-auD">
+                                <rect key="frame" x="252" y="452" width="97" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Kt4-aU-TYg"/>
+                                    <constraint firstAttribute="width" constant="97" id="uTz-vj-AkA"/>
+                                </constraints>
+                                <state key="normal" title="Update Image"/>
+                                <connections>
+                                    <action selector="updateImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PfX-9R-nPD"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Uuh-Pj-CjN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="VR3-Ai-4ne"/>
+                            <constraint firstItem="Uuh-Pj-CjN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dao-wA-VZ6"/>
+                            <constraint firstItem="qw6-b6-auD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="r9W-Dp-RQB"/>
+                            <constraint firstItem="qw6-b6-auD" firstAttribute="top" secondItem="Uuh-Pj-CjN" secondAttribute="bottom" constant="45" id="z2S-Rq-Wrv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="alienImage" destination="Uuh-Pj-CjN" id="B5z-s0-V3U"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="280" y="349"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="frame0.png" width="49" height="86"/>
+    </resources>
+</document>
